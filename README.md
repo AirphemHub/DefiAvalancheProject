@@ -27,31 +27,31 @@ To deploy and interact with the contracts, follow these steps:
 4. Use the following commands to interact with the contracts:
 
 #### Deploying ERC20 Contract
-    ```
+    
         // Deploy ERC20 contract
         ERC20 erc20 = new ERC20();
-    ```
+    
 #### Deploying Vault Contract
-    ```
+    
         // Deploy Vault contract with the address of the ERC20 token
         Vault vault = new Vault(address(erc20));
-    ```
+    
 #### Interacting with the ERC20 Contract
-    ```
+    
         // Mint tokens
         erc20.mint(1000);
 
         // Transfer tokens
         erc20.transfer(address(vault), 100);
-    ```
+    
 #### Interacting with the Vault Contract
-    ```
+    
         // Deposit tokens into the Vault
         vault.deposit(100);
 
         // Withdraw tokens from the Vault
         vault.withdraw(50);
-    ```
+    
 
 ### Help
 For common issues or troubleshooting:
@@ -60,6 +60,7 @@ For common issues or troubleshooting:
 
 ### Authors
 Oluwafemi Shobowale
+
 @[AirphemHub](https://github.com/AirphemHub)
 
 ### License
