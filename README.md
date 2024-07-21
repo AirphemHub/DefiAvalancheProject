@@ -11,9 +11,13 @@ The ERC20 contract includes functions for transferring tokens, approving allowan
 ### Getting Started
 #### Installing
 1. Clone the repository:
-    ```git clone https://github.com/AirphemHub/DefiAvalancheProject.git```
-2. Navigate to the project directory:
-    ```cd DefiAvalancheProject```
+    ```
+       git clone https://github.com/AirphemHub/DefiAvalancheProject.git
+    ```
+3. Navigate to the project directory:
+    ```
+       cd DefiAvalancheProject
+    ```
 
 #### Executing program
 To deploy and interact with the contracts, follow these steps:
